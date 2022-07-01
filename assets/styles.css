@@ -46,7 +46,7 @@ form button:hover{
     align-items: center;
 }
 .todo-list{
-    min-width: 30%;
+    min-width: 50%;
     list-style: none;
 }
 
@@ -59,3 +59,20 @@ form button:hover{
     justify-content: space-between;
     align-items: center;
 }
+
+.todo li{
+    flex: 1;
+}
+ .trash-btn, .complete-btn{
+    background: #e00909;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font: 1 rem;
+ }
+
+ .complete-btn{
+    background-color: #955405;
+ }
+ 
