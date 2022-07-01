@@ -28,6 +28,7 @@ form input, form button{
     border: none;
     background: white;
     border-radius: .4rem;
+    max-width: 80%;
 }
 form button{
     color: #955405;
@@ -74,5 +75,8 @@ form button:hover{
 
  .complete-btn{
     background-color: #955405;
+ }
+ .todo-item{
+    padding: 0rem 0.5rem;
  }
  
