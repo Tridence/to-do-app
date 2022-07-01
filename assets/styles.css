@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    background-image: linear-gradient(120deg, #514211, #876157);
     color: white;
     font-family: "poppins";
     min-height: 100vh;
@@ -21,4 +21,22 @@ header, form{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    border-radius: .4rem;
+}
+form button{
+    color: #955405;
+    background-color: #bfbfbf;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+form button:hover{
+    background: #514211;
+    color: white;
 }
