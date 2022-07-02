@@ -47,7 +47,11 @@ function deleteCheck(e){
     //console.log(e.target);
     if(item.classList[0] == 'trash-btn'){
         const todo = item.parentElement;
-        todo.remove();
+        //Animation
+        todo.classList.add("fall");
+        todo.addEventListener('transitionend', function(){
+            todo.remove();
+        });
     }
 
 //Checkmark
